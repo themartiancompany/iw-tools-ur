@@ -1,0 +1,17 @@
+pkgbase = iw-tools
+	pkgdesc = Wireless tools.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/iw-tools
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = libcrash-bash
+	depends = iw
+	depends = tsu
+	source = iw-tools-960993a7f3ec97348fa36c8ae06e8b5be450a607.zip::https://github.com/themartiancompany/iw-tools/archive/960993a7f3ec97348fa36c8ae06e8b5be450a607.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 745a1d92286c758e74780d69ccbeae65a4aed1f60963413a03493100eeadae79
+
+pkgname = iw-tools
