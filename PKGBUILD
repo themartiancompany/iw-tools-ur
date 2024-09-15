@@ -7,8 +7,8 @@ _offline="false"
 _git="false"
 _pkg=iw-tools
 pkgname="${_pkg}"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1"
-_commit="960993a7f3ec97348fa36c8ae06e8b5be450a607"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.1.1"
+_commit="91bca1a6b95fdc28abbb7c3820f96d7ef33851d7"
 pkgrel=1
 _pkgdesc=(
   "Wireless tools."
@@ -70,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="745a1d92286c758e74780d69ccbeae65a4aed1f60963413a03493100eeadae79"
+    _sum="1a7f4a3a6b7a79587b4b8a6872416f027c25cbb68ddf78c42ab1231d4af9daba"
   fi && \
     source+=(
       "${_tar}"
